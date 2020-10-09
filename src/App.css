@@ -1,1 +1,49 @@
 @import '~antd/dist/antd.css';
+
+.gutter-row-left {
+    display: flex;
+    background: #0f3057;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.gutter-row-right {
+    padding: 8px 0;
+    background: #f6f6f6;
+}
+
+.ant-btn-primary {
+    background: #00587a;
+    border-color: #00587a;
+}
+
+.ant-btn-primary:hover {
+    background-color: #008891;
+    border-color: #008891;
+}
+
+.ant-btn-primary:focus {
+    background-color: #008891;
+    border-color: #008891;
+}
+
+.chk-required {
+    display: flex;
+}
+
+.chk-required-item {
+    margin-left: 8px;
+}
+
+.btn-component {
+    margin: 10px 0;
+}
+
+.ant-input {
+    margin-bottom: 16px;
+}
+
+.ant-form-item {
+    margin-bottom: 0px;
+}
